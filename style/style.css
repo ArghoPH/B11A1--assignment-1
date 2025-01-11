@@ -420,9 +420,34 @@ bosy
   margin-bottom: 32px;
 }
 
+.footer{
+  text-align: center; 
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.f-img{
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  margin-top: 64px;
+  margin-bottom: 50px;
+}
+.bg-w{
+background-color: #FFFFFF;
+width: 1600px;
+height: 226px;
+width: 100%;
+height: 100%;
+}
+
 .al-jaj-img{
   margin-bottom: 12px;
   margin-top: 12px;
+}
+.f-img .footer-img{
+  padding-inline: 0px;
+  margin-left: 70px;
 }
 
 .heading-rn{
