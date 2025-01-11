@@ -119,7 +119,7 @@ height: 326px;
   margin: 80px 160px;
 }
 
-.vision-button{
+.vision-button-1{
   font-weight: 600;
   font-size: 16px;
   color: #FFFFFF;
@@ -129,6 +129,28 @@ height: 326px;
   border-color: #5490F5;
   border-style: solid;
 }
+.vision-button-2{
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 11px 20px;
+  background-color: #09A15C;
+  border-radius: 8px;
+  border-color: #09A15C;
+  border-style: solid;
+}
+
+.vision-button-3{
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 11px 20px;
+  background-color: #FFC239;
+  border-radius: 8px;
+  border-color: #FFC239;
+  border-style: solid;
+}
+
 
 *{
   margin: 0;
@@ -196,6 +218,10 @@ height: 326px;
   font-size: 16px;
   color: #0E0E0E;
   opacity: 60%;
+}
+
+.color1{
+  background-color: #C6E4D6;
 }
 
 .card-section .card-box .title-para{
