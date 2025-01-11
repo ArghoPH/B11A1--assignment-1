@@ -30,16 +30,19 @@ nav{
     font-size: 24px;
     color: #0E0E0E;
     opacity: 50%;
-    padding: 0;
-    margin-top: 117px;
     margin-bottom: 16px;
-    
+}
+
+.para{
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 24px;
 }
 .Banner-content{
     font-weight: bold;
     font-size: 56px;
     color: #0E0E0E;
-    margin-top: 0px;
+    margin-bottom: 24px;
 }
 
 
@@ -67,8 +70,8 @@ nav{
 
 
 .first-banner-div{
-max-width: 622px;
-max-height: 245p;
+width: 622px;
+height: 326px;
     
 }
 
@@ -79,19 +82,19 @@ max-height: 245p;
     font-weight: 600;
     color: white;
     background-color: #006A50;
-    padding: 17px 34px;
     border-radius: 8px;
     border-color: #006A50;
     border-style: solid;
     width: 270px;
-    height: 56px;   
+    height: 56px;
+ 
 }
 
 .pillar-container{
   display: flex;
-  width: 1280px;
   gap: 24px;
-  padding: 24px;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 .pillar-img{
   
@@ -106,6 +109,9 @@ max-height: 245p;
   padding: 24px;
   justify-content: space-between;
   align-items: center;
+  width: 302px;
+  height: 244px;
+  margin-top: 32px;
 }
 
 
@@ -135,6 +141,7 @@ max-height: 245p;
 .card-section{
   display: flex;
   gap: 24px;
+  justify-content: space-between;
 
 }
 
@@ -152,11 +159,6 @@ max-height: 245p;
 
 }
 
-bosy  
-
-.para{
-  margin-top: 32px;
-}
 
 .card-box{
   margin-top: 32px;
@@ -188,14 +190,11 @@ bosy
 }
 
 
-.yunus-title{
-  margin-top: 0;
-}
-
 .last-para .yunus-a{
   margin-top: 0px;
   padding: 24px;
 }
+
 
 .yunus-para{
   font-weight: 400;
@@ -244,6 +243,9 @@ bosy
   font-size: 16px
 }
 
+
+
+
 .button-rn{
   background-color: #006A50;
   width: 139px;
@@ -257,11 +259,12 @@ bosy
 .section-rn{
   display: flex;
   background-color: #FFFFFF;
-  margin: 0 160px ;
+  margin: 0 160px 0 160px ;
   gap: 32px;
   justify-content: space-between;
   align-items: center;
   border-radius: 24px;
+  margin-top: 0px;
 }
 
 .donate-t{
@@ -270,15 +273,13 @@ bosy
   text-align: center;
   margin-top: 80px;
 }
-.rn-h{
-  margin-bottom: 24px;
-}
 
 .donate-p{
   margin-top: 24px;
-  margin-left: 88px;
-  margin-right: 88px;
+  padding: 0 88px 0 88px;
   text-align: center;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .btn-section{
@@ -291,7 +292,8 @@ bosy
 .btn-all{
   padding-left: 160px;
   padding-right: 160px;
- 
+ display: flex;
+ justify-content: space-between;
 }
 
 .other-amt{
@@ -302,8 +304,12 @@ bosy
   width: 1032px;
   height: 64px;
   text-align: center;
-  background-color: white;
-  border-bottom: solid;
+}
+
+.hover-button{
+
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
 .btn-done{
@@ -317,9 +323,17 @@ bosy
     color: white;
 }
 
-.btn-done-n .btn-done{
-  margin: 32px 724px;
+.btn-done{
+  text-align: center;
 }
+.btn-done-n{
+  margin: 0, auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+
 
 .bt-n{
   margin: 0 auto;
@@ -329,10 +343,9 @@ bosy
   padding-left: 160px;
   padding-right: 160px;
   margin-top: 32px;
-  border-color: white;
   text-align: center;
-
 }
+
 
 .sub{
   font-weight: bold;
@@ -342,8 +355,10 @@ bosy
 
 .content-nt{
   padding-top: 80px;
-  padding-left: 265px;
-  padding-right: 160px;
+}
+
+.input-m{
+ text-align: center;
 }
 
 .size-input{
@@ -362,7 +377,7 @@ bosy
   height: 395px;
   padding: 0;
   border-radius: 24px;
-}
+background-color: #C6E4D6;}
 
 .size-btn{
   height: 55px;
@@ -383,6 +398,13 @@ bosy
   margin-top: 24px;
 }
 
+.para-news{
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
 
 
 .Donate-today-section{
@@ -399,7 +421,8 @@ bosy
   background-color: #FFFFFF;
   border-color: #FFFFFF;
   border-style: solid;
-  padding: 40px 40px;
+  width: 240px;
+  height: 128px;
   border-radius: 16px
 
 }
