@@ -234,6 +234,21 @@ bosy
   opacity: 70%;
 }
 
+.heading-rn{
+  font-weight: bold;
+  font-size: 40px;
+  margin: 160px;
+  margin-bottom: 0px;
+  margin-top: 80px;
+}
+
+.head-para-rn{
+  font-weight: 400;
+  font-size: 16px;
+  margin: 160px;
+  margin-top: 24px;
+}
+
 .title-font{
   font-weight: bold;
   font-size: 20px;
