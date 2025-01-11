@@ -114,6 +114,94 @@ max-height: 245p;
  
 }
 
+.the-v-of-future{
+  margin: 80px 160px;
+}
+
+.vision-button{
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 11px 20px;
+  background-color: #5490F5;
+  border-radius: 8px;
+  border-color: #5490F5;
+  border-style: solid;
+}
+
+*{
+  margin: 0;
+}
+.card-section{
+  display: flex;
+  gap: 24px;
+
+}
+
+.card-section .card-box{
+  background-color: rgba(84, 144, 245, 0.2);
+  border-radius: 16px;
+}
+
+.card-section .card-box .card-image{
+  margin-left: 32px;
+}
+
+.title section-font{
+  margin-bottom: 24px;
+
+}
+
+.body{
+  margin-left: auto 160px auto 160px;
+}
+
+.para{
+  margin-top: 32px;
+}
+
+.card-box{
+  margin-top: 32px;
+  width: 410.37px;
+  height: 325px;
+}
+
+.card-section .card-box .title-para{
+
+  margin-left: 32px;
+  margin-bottom: 24px;
+}
+
+.card-section .card-box .card-img-tp-b{
+  margin: 32px;
+}
+
+.card-section .card-box .title-font{
+  margin-bottom: 12px;
+}
+
+.card-section .card-box .title-para{
+  margin-top: 12px;
+}
+
+.card-section .card-box .button-v{
+  margin: 32px;
+  margin-top: 0;
+}
+
+.description-font{
+  font-weight: 400;
+  font-size: 16px;
+  color: #0E0E0E;
+  opacity: 70%;
+}
+
+.title-font{
+  font-weight: bold;
+  font-size: 20px;
+  color: #0E0E0E;
+  opacity: 80%;
+}
 
 .section-font{
   font-weight: bold;
@@ -121,6 +209,12 @@ max-height: 245p;
   color: #0E0E0E;
 }
 
+.font-description{
+  font-weight:400;
+  font-size: 16px;
+  color: #0E0E0E;
+  opacity: 70%;
+}
 
 .fira-sans-thin {
     font-family: "Fira Sans", serif;
