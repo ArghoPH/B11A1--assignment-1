@@ -282,18 +282,64 @@ bosy
 }
 
 .btn-section{
-  margin-left: 160px;
-  margin-right: 160PX;
+  padding-left: 264.5px;
+  padding-right: 264.5px;
+  margin-top: 32px;
+
 }
 
 .btn-all{
-  margin-left: 104.5px;
-  margin-right: 104.5px;
+  padding-left: 160px;
+  padding-right: 160px;
+ 
 }
+
+.other-amt{
+  font-weight: 400;
+  font-size: 20px;
+  color: #0E0E0E;
+  opacity: 30%;
+  width: 1032px;
+  height: 64px;
+  text-align: center;
+  background-color: white;
+  border-bottom: solid;
+}
+
+.btn-done{
+    background-color: #006A50;
+    border: #006A50;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18;
+    width: 151px;
+    height: 56px;
+    color: white;
+}
+
+.btn-done-n .btn-done{
+  margin: 32px 724px;
+}
+
+.bt-n{
+  margin: 0 auto;
+}
+
+.input-f{
+  padding-left: 160px;
+  padding-right: 160px;
+  margin-top: 32px;
+  border-color: white;
+  text-align: center;
+
+}
+
+
 
 .Donate-today-section{
   margin-left: 160px;
   margin-right: 160px;
+  justify-content: center;
 }
 
 .btn-donate{
