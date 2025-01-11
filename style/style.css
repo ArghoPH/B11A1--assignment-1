@@ -5,6 +5,9 @@ nav{
     margin: 31px 160px;
 }
 
+
+
+
 .body{
     background-color: #F1F1F3;
 }
@@ -41,19 +44,19 @@ nav{
 
 
 
-.first-banner-section{
+#first-banner{
     display: flex;
     border-radius: 24px;
-    max-width: 1280px;
-    margin: 0 auto;
-    justify-content: center;
-    padding: 30px 117px;
+    justify-content: space-between;
+    margin: 20px 160px;
+    padding: 177px 59.99px;
+
 
 }
 .banner-img{
     width: 474px;
     height: 400px;
-    padding: 80px;
+    
 }
 
 .main-style{
@@ -61,11 +64,12 @@ nav{
     
 }
 
+
+
 .first-banner-div{
-    width: 622px;
-    height: 326px;
-    width: 100%;
-    height: 100%;
+max-width: 622px;
+max-height: 245p;
+    
 }
 
 .background-color-section-1{
@@ -82,6 +86,41 @@ nav{
     width: 270px;
     height: 56px;   
 }
+
+.pillar-container{
+  display: flex;
+  width: 1280px;
+  gap: 24px;
+  padding: 24px;
+}
+.pillar-img{
+  
+  width: 64px;
+  height: 64px;
+}
+
+
+.pillar{
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.pillars-section{
+  margin: 80px 160px 0px 160px;
+ 
+}
+
+
+.section-font{
+  font-weight: bold;
+  font-size: 40px;
+  color: #0E0E0E;
+}
+
 
 .fira-sans-thin {
     font-family: "Fira Sans", serif;
