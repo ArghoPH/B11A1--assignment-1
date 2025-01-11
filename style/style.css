@@ -152,9 +152,7 @@ max-height: 245p;
 
 }
 
-.body{
-  margin-left: auto 160px auto 160px;
-}
+bosy  
 
 .para{
   margin-top: 32px;
@@ -164,6 +162,46 @@ max-height: 245p;
   margin-top: 32px;
   width: 410.37px;
   height: 325px;
+}
+
+.paragraph{
+  margin-top: 32px;
+  color: #0E0E0E;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 42px 24px 112px 24px;
+  margin-bottom: 0px;
+  width: 1273px;
+  height: 256px;
+}
+
+.yunus-title{
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 20px;
+  
+}
+
+.last-para{
+  background-color: #FFFFFF;
+  border-radius: 16px;
+}
+
+
+.yunus-title{
+  margin-top: 0;
+}
+
+.last-para .yunus-a{
+  margin-top: 0px;
+  padding: 24px;
+}
+
+.yunus-para{
+  font-weight: 400;
+  font-size: 16px;
+  color: #0E0E0E;
+  opacity: 60%;
 }
 
 .card-section .card-box .title-para{
